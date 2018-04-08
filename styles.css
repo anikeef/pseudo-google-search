@@ -9,6 +9,13 @@ body {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
 /* -------------------- */
 
 div.search-area {
